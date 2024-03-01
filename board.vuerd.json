@@ -3,7 +3,7 @@
     "version": "2.2.13",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -639.4499694824219,
+    "scrollTop": -533.3333129882812,
     "scrollLeft": -218,
     "zoomLevel": 1,
     "show": {
@@ -497,15 +497,15 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
-              "pfk": false,
+              "fk": false,
+              "pfk": true,
               "widthName": 63.7880859375,
               "widthComment": 84.5703125,
               "widthDataType": 82.1328125,
@@ -520,15 +520,15 @@
             "default": "AUTO_INCREMENT",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
-              "pfk": false,
+              "fk": false,
+              "pfk": true,
               "widthName": 87.77587890625,
               "widthComment": 71.5703125,
               "widthDataType": 60,
@@ -537,10 +537,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 298,
           "top": 200,
-          "zIndex": 2,
+          "zIndex": 13,
           "widthName": 60,
           "widthComment": 84.5703125,
           "color": "#8BC34A"
@@ -902,7 +902,7 @@
       },
       {
         "id": "5505df8f-7449-47de-a819-7aa5591e02e7",
-        "identification": false,
+        "identification": true,
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
@@ -928,7 +928,7 @@
       },
       {
         "id": "35b3babc-6622-47e7-b722-f148de55dcbf",
-        "identification": false,
+        "identification": true,
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
